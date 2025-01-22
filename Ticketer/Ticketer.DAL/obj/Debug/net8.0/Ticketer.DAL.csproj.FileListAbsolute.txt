@@ -1,0 +1,13 @@
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.DAL\obj\Debug\net8.0\Ticketer.DAL.csproj.AssemblyReference.cache
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.DAL\obj\Debug\net8.0\Ticketer.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.DAL\obj\Debug\net8.0\Ticketer.DAL.AssemblyInfoInputs.cache
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.DAL\obj\Debug\net8.0\Ticketer.DAL.AssemblyInfo.cs
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.DAL\obj\Debug\net8.0\Ticketer.DAL.csproj.CoreCompileInputs.cache
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.DAL\obj\Debug\net8.0\Ticketer.DAL.sourcelink.json
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.DAL\bin\Debug\net8.0\Ticketer.DAL.deps.json
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.DAL\bin\Debug\net8.0\Ticketer.DAL.dll
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.DAL\bin\Debug\net8.0\Ticketer.DAL.pdb
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.DAL\obj\Debug\net8.0\Ticketer.DAL.dll
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.DAL\obj\Debug\net8.0\refint\Ticketer.DAL.dll
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.DAL\obj\Debug\net8.0\Ticketer.DAL.pdb
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.DAL\obj\Debug\net8.0\ref\Ticketer.DAL.dll

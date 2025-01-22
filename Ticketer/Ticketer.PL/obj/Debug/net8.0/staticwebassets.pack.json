@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Ticketer.PL.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Ticketer.PL.47vmxr8c87.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Ticketer.PL.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Ticketer.PL.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Ticketer.PL.props",
+      "PackagePath": "build\\Ticketer.PL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Ticketer.PL.props",
+      "PackagePath": "buildMultiTargeting\\Ticketer.PL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Ticketer.PL.props",
+      "PackagePath": "buildTransitive\\Ticketer.PL.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

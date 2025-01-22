@@ -1,0 +1,16 @@
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.BLL\obj\Debug\net8.0\Ticketer.BLL.csproj.AssemblyReference.cache
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.BLL\obj\Debug\net8.0\Ticketer.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.BLL\obj\Debug\net8.0\Ticketer.BLL.AssemblyInfoInputs.cache
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.BLL\obj\Debug\net8.0\Ticketer.BLL.AssemblyInfo.cs
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.BLL\obj\Debug\net8.0\Ticketer.BLL.csproj.CoreCompileInputs.cache
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.BLL\obj\Debug\net8.0\Ticketer.BLL.sourcelink.json
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.BLL\bin\Debug\net8.0\Ticketer.BLL.deps.json
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.BLL\bin\Debug\net8.0\Ticketer.BLL.dll
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.BLL\bin\Debug\net8.0\Ticketer.BLL.pdb
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.BLL\bin\Debug\net8.0\Ticketer.DAL.dll
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.BLL\bin\Debug\net8.0\Ticketer.DAL.pdb
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.BLL\obj\Debug\net8.0\Ticketer.6055B136.Up2Date
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.BLL\obj\Debug\net8.0\Ticketer.BLL.dll
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.BLL\obj\Debug\net8.0\refint\Ticketer.BLL.dll
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.BLL\obj\Debug\net8.0\Ticketer.BLL.pdb
+C:\Users\flieu\Desktop\Viktor\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\Ticketer\Ticketer.BLL\obj\Debug\net8.0\ref\Ticketer.BLL.dll
