@@ -1,0 +1,155 @@
+﻿@page "/Account/Register"
+@using System.ComponentModel.DataAnnotations
+@inject Ticketer.DAL.AuthenticationService.AuthenticationService AuthService
+@inject NavigationManager NavigationManager
+
+<div class="register-container">
+    <h3>Register</h3>
+
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="alert alert-danger">
+            @errorMessage
+        </div>
+    }
+
+    <EditForm Model="registerModel" OnValidSubmit="HandleRegister" OnInvalidSubmit="HandleInvalidSubmit" FormName="registrationForm">
+        <DataAnnotationsValidator />
+
+        <div class="form-group">
+            <InputText id="email" @bind-Value="registerModel.Email" placeholder="Email" class="form-control" />
+            <ValidationMessage For="() => registerModel.Email" />
+        </div>
+
+        <div class="form-group">
+            <InputText id="password" type="password" @bind-Value="registerModel.Password" placeholder="Password" class="form-control" />
+            <ValidationMessage For="() => registerModel.Password" />
+        </div>
+
+        <div class="form-group">
+            <InputSelect id="role" @bind-Value="registerModel.Role" class="form-control">
+                <option value="">Select Role</option>
+                <option value="User">User</option>
+                <option value="Admin">Admin</option>
+            </InputSelect>
+            <ValidationMessage For="() => registerModel.Role" />
+        </div>
+
+        <button type="submit" class="btn btn-primary" disabled="@isProcessing">
+            @if (isProcessing)
+            {
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                <span>Processing...</span>
+            }
+            else
+            {
+                <span>Register</span>
+            }
+        </button>
+    </EditForm>
+</div>
+
+<style>
+    .register-container {
+        max-width: 400px;
+        margin: 2rem auto;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        background-color: #ffffff;
+    }
+
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 0.75rem;
+        border-radius: 4px;
+        border: 1px solid #ced4da;
+        transition: border-color 0.15s ease-in-out;
+    }
+
+        .form-control:focus {
+            border-color: #80bdff;
+            box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+        }
+
+    .btn-primary {
+        width: 100%;
+        padding: 0.75rem;
+        font-weight: 500;
+        transition: background-color 0.2s ease;
+    }
+
+    .alert {
+        padding: 0.75rem;
+        margin-bottom: 1rem;
+        border-radius: 4px;
+    }
+
+    .alert-danger {
+        color: #721c24;
+        background-color: #f8d7da;
+        border: 1px solid #f5c6cb;
+    }
+</style>
+
+@code {
+    private RegisterModel registerModel = new();
+    private string errorMessage = string.Empty;
+    private bool isProcessing;
+
+    private async Task HandleRegister()
+    {
+        try
+        {
+            isProcessing = true;
+            errorMessage = string.Empty;
+
+            var success = await AuthService.RegisterUser(
+                registerModel.Email.Trim(),
+                registerModel.Password,
+                registerModel.Role
+            );
+
+            if (success)
+            {
+                NavigationManager.NavigateTo("/login");
+            }
+            else
+            {
+                errorMessage = "Registration failed. Email might already be in use.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = "An unexpected error occurred. Please try again.";
+        }
+        finally
+        {
+            isProcessing = false;
+        }
+    }
+
+    private void HandleInvalidSubmit()
+    {
+        errorMessage = "Please correct the validation errors and try again.";
+    }
+
+    public class RegisterModel
+    {
+        [Required(ErrorMessage = "Email is required")]
+        [EmailAddress(ErrorMessage = "Invalid email format")]
+        public string Email { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "Password is required")]
+        [StringLength(100, MinimumLength = 6, ErrorMessage = "Password must be at least 6 characters long")]
+        public string Password { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "Role is required")]
+        [RegularExpression("^(User|Admin)$", ErrorMessage = "Role must be either 'User' or 'Admin'")]
+        public string Role { get; set; } = string.Empty;
+    }
+}

@@ -1,0 +1,83 @@
+﻿@page "/BuyTicket"
+@inject Ticketer.DAL.ConcertService.ConcertService ConcertService
+@inject Ticketer.DAL.TicketService.TicketService TicketService
+@inject Ticketer.DAL.AuthenticationService.AuthenticationService AuthenticationService
+@inject NavigationManager NavigationManager
+
+<h3>Buy Concert Ticket</h3>
+
+@if (concerts != null && concerts.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Date</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var concert in concerts)
+            {
+                <tr>
+                    <td>@concert.Title</td>
+                    <td>@concert.Description</td>
+                    <td>@concert.Date.ToShortDateString()</td>
+                    <td>@concert.Price.ToString("C")</td>
+                    <td>
+                        <button class="btn btn-primary" @onclick="() => BuyTicket(concert.ConcertId, concert.Price)">Buy Ticket</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No concerts available.</p>
+}
+
+@code {
+    private List<Concert> concerts = new List<Concert>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        concerts = await ConcertService.GetAllConcertsAsync();
+    }
+
+    private async Task BuyTicket(int concertId, decimal price)
+    {
+        // Get the currently logged-in user
+        var currentUser = AuthenticationService.CurrentUser;
+
+        if (currentUser.Deposit < price)
+        {
+            // If user does not have enough deposit, display error
+            // You could use a modal or some other UI element for user feedback
+            Console.WriteLine("Insufficient funds.");
+            return;
+        }
+
+        // Create a new ticket and deduct the deposit
+        var ticket = new Ticket
+            {
+                UserId = currentUser.UserId,
+                ConcertId = concertId,
+                PurchaseDate = DateTime.Now
+            };
+
+        // Call service to save ticket
+        await TicketService.CreateTicketAsync(ticket);
+
+        // Deduct the price from the user's deposit
+        currentUser.Deposit -= price;
+
+        // Update the deposit in the database
+        await AuthenticationService.UpdateUserDepositAsync(currentUser);
+
+        // Redirect to the user's purchased tickets page
+        NavigationManager.NavigateTo("/my-tickets");
+    }
+}

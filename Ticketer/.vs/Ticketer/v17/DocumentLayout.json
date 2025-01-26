@@ -3,12 +3,127 @@
   "WorkspaceRootPath": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\components\\pages\\admin\\addconcert.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\components\\pages\\admin\\addconcert.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\components\\pages\\shared\\registration.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\components\\pages\\shared\\registration.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\components\\pages\\shared\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\components\\pages\\shared\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\components\\pages\\shared\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\components\\pages\\shared\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\components\\pages\\admin\\manageconcerts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\components\\pages\\admin\\manageconcerts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\components\\pages\\admin\\editconcert.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\components\\pages\\admin\\editconcert.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\components\\pages\\account\\mytickets.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\components\\pages\\account\\mytickets.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\components\\pages\\account\\tickets.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\components\\pages\\account\\tickets.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\components\\pages\\account\\deposit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\components\\pages\\account\\deposit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\components\\pages\\account\\concerts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\components\\pages\\account\\concerts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A91FEF-4554-43B6-9AB3-DB4784C6BFEF}|Ticketer.DAL\\Ticketer.DAL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.dal\\repositories\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A91FEF-4554-43B6-9AB3-DB4784C6BFEF}|Ticketer.DAL\\Ticketer.DAL.csproj|solutionrelative:ticketer.dal\\repositories\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A91FEF-4554-43B6-9AB3-DB4784C6BFEF}|Ticketer.DAL\\Ticketer.DAL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.dal\\repositories\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A91FEF-4554-43B6-9AB3-DB4784C6BFEF}|Ticketer.DAL\\Ticketer.DAL.csproj|solutionrelative:ticketer.dal\\repositories\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A91FEF-4554-43B6-9AB3-DB4784C6BFEF}|Ticketer.DAL\\Ticketer.DAL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.dal\\repositories\\concertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A91FEF-4554-43B6-9AB3-DB4784C6BFEF}|Ticketer.DAL\\Ticketer.DAL.csproj|solutionrelative:ticketer.dal\\repositories\\concertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A91FEF-4554-43B6-9AB3-DB4784C6BFEF}|Ticketer.DAL\\Ticketer.DAL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.dal\\data\\ticketmanagmentdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A91FEF-4554-43B6-9AB3-DB4784C6BFEF}|Ticketer.DAL\\Ticketer.DAL.csproj|solutionrelative:ticketer.dal\\data\\ticketmanagmentdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A91FEF-4554-43B6-9AB3-DB4784C6BFEF}|Ticketer.DAL\\Ticketer.DAL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.dal\\repositories\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A91FEF-4554-43B6-9AB3-DB4784C6BFEF}|Ticketer.DAL\\Ticketer.DAL.csproj|solutionrelative:ticketer.dal\\repositories\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A91FEF-4554-43B6-9AB3-DB4784C6BFEF}|Ticketer.DAL\\Ticketer.DAL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.dal\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A91FEF-4554-43B6-9AB3-DB4784C6BFEF}|Ticketer.DAL\\Ticketer.DAL.csproj|solutionrelative:ticketer.dal\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A91FEF-4554-43B6-9AB3-DB4784C6BFEF}|Ticketer.DAL\\Ticketer.DAL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.dal\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A91FEF-4554-43B6-9AB3-DB4784C6BFEF}|Ticketer.DAL\\Ticketer.DAL.csproj|solutionrelative:ticketer.dal\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A91FEF-4554-43B6-9AB3-DB4784C6BFEF}|Ticketer.DAL\\Ticketer.DAL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.dal\\models\\concerts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A91FEF-4554-43B6-9AB3-DB4784C6BFEF}|Ticketer.DAL\\Ticketer.DAL.csproj|solutionrelative:ticketer.dal\\models\\concerts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A91FEF-4554-43B6-9AB3-DB4784C6BFEF}|Ticketer.DAL\\Ticketer.DAL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.dal\\ticketer.dal.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A6A91FEF-4554-43B6-9AB3-DB4784C6BFEF}|Ticketer.DAL\\Ticketer.DAL.csproj|solutionrelative:ticketer.dal\\ticketer.dal.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\flieu\\AppData\\Local\\SourceServer\\2378f59252f5d1eb6a70497604b9aa895545123c316869c0c068b4d4927806bf\\src\\Components\\Components\\src\\RenderTree\\RenderTreeDiffBuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\ticketer.pl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\ticketer.pl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D7EE070-D5D5-447D-B661-8890C6A717B1}|Ticketer.DAL\\Ticketer.DAL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.dal\\ticketer.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6D7EE070-D5D5-447D-B661-8890C6A717B1}|Ticketer.DAL\\Ticketer.DAL.csproj|solutionrelative:ticketer.dal\\ticketer.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.pl\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F42C722A-5BCA-4D8B-9943-637888B6BF1A}|Ticketer.PL\\Ticketer.PL.csproj|solutionrelative:ticketer.pl\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED688A6A-C711-4373-9023-7C3719FD1B76}|Ticketer.BLL\\Ticketer.BLL.csproj|c:\\users\\flieu\\desktop\\viktor\\2425-11-v-sd-music-festival-tracker-project-mvkoleva21\\ticketer\\ticketer.bll\\ticketer.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -22,50 +137,435 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f677620d-05fd-48ed-8423-72a12db4deef}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Concerts.razor",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Account\\Concerts.razor",
+              "RelativeDocumentMoniker": "Ticketer.PL\\Components\\Pages\\Account\\Concerts.razor",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Account\\Concerts.razor",
+              "RelativeToolTip": "Ticketer.PL\\Components\\Pages\\Account\\Concerts.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T12:45:46.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Deposit.razor",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Account\\Deposit.razor",
+              "RelativeDocumentMoniker": "Ticketer.PL\\Components\\Pages\\Account\\Deposit.razor",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Account\\Deposit.razor",
+              "RelativeToolTip": "Ticketer.PL\\Components\\Pages\\Account\\Deposit.razor",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwAYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T12:47:10.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tickets.razor",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Account\\Tickets.razor",
+              "RelativeDocumentMoniker": "Ticketer.PL\\Components\\Pages\\Account\\Tickets.razor",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Account\\Tickets.razor",
+              "RelativeToolTip": "Ticketer.PL\\Components\\Pages\\Account\\Tickets.razor",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAIkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T12:46:46.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MyTickets.razor",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Account\\MyTickets.razor",
+              "RelativeDocumentMoniker": "Ticketer.PL\\Components\\Pages\\Account\\MyTickets.razor",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Account\\MyTickets.razor",
+              "RelativeToolTip": "Ticketer.PL\\Components\\Pages\\Account\\MyTickets.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T13:01:33.661Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Ticketer.PL",
+              "Title": "AddConcert.razor",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Admin\\AddConcert.razor",
+              "RelativeDocumentMoniker": "Ticketer.PL\\Components\\Pages\\Admin\\AddConcert.razor",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Admin\\AddConcert.razor",
+              "RelativeToolTip": "Ticketer.PL\\Components\\Pages\\Admin\\AddConcert.razor",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T13:04:24.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditConcert.razor",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Admin\\EditConcert.razor",
+              "RelativeDocumentMoniker": "Ticketer.PL\\Components\\Pages\\Admin\\EditConcert.razor",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Admin\\EditConcert.razor",
+              "RelativeToolTip": "Ticketer.PL\\Components\\Pages\\Admin\\EditConcert.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T13:04:50.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManageConcerts.razor",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Admin\\ManageConcerts.razor",
+              "RelativeDocumentMoniker": "Ticketer.PL\\Components\\Pages\\Admin\\ManageConcerts.razor",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Admin\\ManageConcerts.razor",
+              "RelativeToolTip": "Ticketer.PL\\Components\\Pages\\Admin\\ManageConcerts.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T09:33:32.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Shared\\Login.razor",
+              "RelativeDocumentMoniker": "Ticketer.PL\\Components\\Pages\\Shared\\Login.razor",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Shared\\Login.razor",
+              "RelativeToolTip": "Ticketer.PL\\Components\\Pages\\Shared\\Login.razor",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T12:06:38.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Logout.razor",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Shared\\Logout.razor",
+              "RelativeDocumentMoniker": "Ticketer.PL\\Components\\Pages\\Shared\\Logout.razor",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Shared\\Logout.razor",
+              "RelativeToolTip": "Ticketer.PL\\Components\\Pages\\Shared\\Logout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T09:32:46.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Registration.razor",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Shared\\Registration.razor",
+              "RelativeDocumentMoniker": "Ticketer.PL\\Components\\Pages\\Shared\\Registration.razor",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Shared\\Registration.razor",
+              "RelativeToolTip": "Ticketer.PL\\Components\\Pages\\Shared\\Registration.razor",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAAoAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T09:31:55.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Ticketer.PL\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Ticketer.PL\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAACgAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T11:32:55.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Repositories\\UserService.cs",
+              "RelativeDocumentMoniker": "Ticketer.DAL\\Repositories\\UserService.cs",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Repositories\\UserService.cs",
+              "RelativeToolTip": "Ticketer.DAL\\Repositories\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T12:38:28.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Repositories\\TicketService.cs",
+              "RelativeDocumentMoniker": "Ticketer.DAL\\Repositories\\TicketService.cs",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Repositories\\TicketService.cs",
+              "RelativeToolTip": "Ticketer.DAL\\Repositories\\TicketService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T12:39:53.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConcertService.cs",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Repositories\\ConcertService.cs",
+              "RelativeDocumentMoniker": "Ticketer.DAL\\Repositories\\ConcertService.cs",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Repositories\\ConcertService.cs",
+              "RelativeToolTip": "Ticketer.DAL\\Repositories\\ConcertService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T12:41:29.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TicketManagmentDataBaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Data\\TicketManagmentDataBaseContext.cs",
+              "RelativeDocumentMoniker": "Ticketer.DAL\\Data\\TicketManagmentDataBaseContext.cs",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Data\\TicketManagmentDataBaseContext.cs",
+              "RelativeToolTip": "Ticketer.DAL\\Data\\TicketManagmentDataBaseContext.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAABkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:21:29.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Repositories\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Ticketer.DAL\\Repositories\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Repositories\\AuthenticationService.cs",
+              "RelativeToolTip": "Ticketer.DAL\\Repositories\\AuthenticationService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T11:17:53.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "Ticketer.DAL\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Models\\Users.cs",
+              "RelativeToolTip": "Ticketer.DAL\\Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:40:23.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "Ticketer.DAL\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Models\\Ticket.cs",
+              "RelativeToolTip": "Ticketer.DAL\\Models\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:36:34.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Concerts.cs",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Models\\Concerts.cs",
+              "RelativeDocumentMoniker": "Ticketer.DAL\\Models\\Concerts.cs",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Models\\Concerts.cs",
+              "RelativeToolTip": "Ticketer.DAL\\Models\\Concerts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:39:12.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Ticketer.PL\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Ticketer.PL\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T12:55:39.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Program.cs",
+              "RelativeDocumentMoniker": "Ticketer.PL\\Program.cs",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Program.cs",
+              "RelativeToolTip": "Ticketer.PL\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvzoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T11:06:03.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\appsettings.json",
+              "RelativeDocumentMoniker": "Ticketer.PL\\appsettings.json",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\appsettings.json",
+              "RelativeToolTip": "Ticketer.PL\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-26T14:01:33.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Ticketer.DAL.csproj.Backup.tmp",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Ticketer.DAL.csproj.Backup.tmp",
+              "RelativeDocumentMoniker": "Ticketer.DAL\\Ticketer.DAL.csproj.Backup.tmp",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Ticketer.DAL.csproj.Backup.tmp",
+              "RelativeToolTip": "Ticketer.DAL\\Ticketer.DAL.csproj.Backup.tmp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T12:08:44.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Ticketer.PL.csproj",
               "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Ticketer.PL.csproj",
               "RelativeDocumentMoniker": "Ticketer.PL\\Ticketer.PL.csproj",
               "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Ticketer.PL.csproj",
               "RelativeToolTip": "Ticketer.PL\\Ticketer.PL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-01-22T15:36:15.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ticketer.DAL",
-              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Ticketer.DAL.csproj",
-              "RelativeDocumentMoniker": "Ticketer.DAL\\Ticketer.DAL.csproj",
-              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.DAL\\Ticketer.DAL.csproj",
-              "RelativeToolTip": "Ticketer.DAL\\Ticketer.DAL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-22T15:36:06.021Z",
+              "DocumentIndex": 24,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Ticketer.PL\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Ticketer.PL\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T13:25:43.315Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Ticketer.BLL",
+              "DocumentIndex": 23,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "Ticketer.PL\\Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "Ticketer.PL\\Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-25T18:00:43.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RenderTreeDiffBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\flieu\\AppData\\Local\\SourceServer\\2378f59252f5d1eb6a70497604b9aa895545123c316869c0c068b4d4927806bf\\src\\Components\\Components\\src\\RenderTree\\RenderTreeDiffBuilder.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\2378f59252f5d1eb6a70497604b9aa895545123c316869c0c068b4d4927806bf\\src\\Components\\Components\\src\\RenderTree\\RenderTreeDiffBuilder.cs",
+              "ToolTip": "C:\\Users\\flieu\\AppData\\Local\\SourceServer\\2378f59252f5d1eb6a70497604b9aa895545123c316869c0c068b4d4927806bf\\src\\Components\\Components\\src\\RenderTree\\RenderTreeDiffBuilder.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\2378f59252f5d1eb6a70497604b9aa895545123c316869c0c068b4d4927806bf\\src\\Components\\Components\\src\\RenderTree\\RenderTreeDiffBuilder.cs [Read Only]",
+              "ViewState": "AgIAAKMCAAAAAAAAAAAgwLsCAAAcAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T10:08:09.201Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Ticketer.PL\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\App.razor",
+              "RelativeToolTip": "Ticketer.PL\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T13:20:12.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "Ticketer.PL\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Routes.razor",
+              "RelativeToolTip": "Ticketer.PL\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T13:20:23.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Ticketer.PL\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\_Imports.razor",
+              "RelativeToolTip": "Ticketer.PL\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T12:07:16.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "Ticketer.PL\\Components\\Layout\\NavMenu.razor.css",
+              "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.PL\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "Ticketer.PL\\Components\\Layout\\NavMenu.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-25T18:01:02.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Ticketer.BLL.csproj",
               "DocumentMoniker": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.BLL\\Ticketer.BLL.csproj",
               "RelativeDocumentMoniker": "Ticketer.BLL\\Ticketer.BLL.csproj",
               "ToolTip": "C:\\Users\\flieu\\Desktop\\Viktor\\2425-11-v-sd-music-festival-tracker-project-MVKoleva21\\Ticketer\\Ticketer.BLL\\Ticketer.BLL.csproj",
               "RelativeToolTip": "Ticketer.BLL\\Ticketer.BLL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-01-22T15:35:22.946Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

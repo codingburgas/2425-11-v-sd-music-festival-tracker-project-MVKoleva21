@@ -1,0 +1,121 @@
+﻿@page "/Account/Register"
+@using System.ComponentModel.DataAnnotations
+@inject Ticketer.DAL.AuthenticationService.AuthenticationService AuthService
+@inject NavigationManager NavigationManager
+
+<div class="register-container">
+    <h3>Register</h3>
+
+    <EditForm Model="registerModel" OnValidSubmit="HandleRegister" OnInvalidSubmit="HandleInvalidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        @if (errorMessage != null)
+        {
+            <div class="alert alert-danger">@errorMessage</div>
+        }
+
+        <div class="form-group">
+            <InputText @bind-Value="registerModel.Email" placeholder="Email" class="form-control" />
+            <ValidationMessage For="@(() => registerModel.Email)" />
+        </div>
+        <div class="form-group">
+            <InputText @bind-Value="registerModel.Password" placeholder="Password" type="password" class="form-control" />
+            <ValidationMessage For="@(() => registerModel.Password)" />
+        </div>
+        <div class="form-group">
+            <InputText @bind-Value="registerModel.Role" placeholder="Role (User/Admin)" class="form-control" />
+            <ValidationMessage For="@(() => registerModel.Role)" />
+        </div>
+
+        <button type="submit" class="btn btn-primary" disabled="@isProcessing">
+            @if (isProcessing)
+            {
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                <span>Processing...</span>
+            }
+            else
+            {
+                <span>Register</span>
+            }
+        </button>
+    </EditForm>
+</div>
+
+<style>
+    .register-container {
+        max-width: 400px;
+        margin: 2rem auto;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .btn-primary {
+        width: 100%;
+        padding: 0.5rem;
+    }
+</style>
+
+@code {
+    private RegisterModel registerModel = new();
+    private string errorMessage;
+    private bool isProcessing;
+
+    private async Task HandleRegister()
+    {
+        try
+        {
+            isProcessing = true;
+            errorMessage = null;
+
+            var success = await AuthService.RegisterUser(registerModel.Email, registerModel.Password, registerModel.Role);
+            if (success)
+            {
+                NavigationManager.NavigateTo("/login");
+            }
+            else
+            {
+                errorMessage = "Registration failed. Please try again.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = "An unexpected error occurred. Please try again.";
+        }
+        finally
+        {
+            isProcessing = false;
+        }
+    }
+
+    private void HandleInvalidSubmit()
+    {
+        errorMessage = "Please correct the validation errors and try again.";
+    }
+
+    public class RegisterModel
+    {
+        [Required(ErrorMessage = "Email is required")]
+        [EmailAddress(ErrorMessage = "Invalid email format")]
+        public string Email { get; set; }
+
+        [Required(ErrorMessage = "Password is required")]
+        [StringLength(100, MinimumLength = 8, ErrorMessage = "Password must be at least 8 characters long")]
+        public string Password { get; set; }
+
+        [Required(ErrorMessage = "Role is required")]
+        [RegularExpression("^(User|Admin)$", ErrorMessage = "Role must be either 'User' or 'Admin'")]
+        public string Role { get; set; }
+    }
+}
