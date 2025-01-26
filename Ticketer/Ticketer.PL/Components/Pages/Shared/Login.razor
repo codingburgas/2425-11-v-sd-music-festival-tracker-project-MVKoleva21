@@ -1,0 +1,59 @@
+﻿@page "/Account/Login"
+@inject NavigationManager NavigationManager
+@inject Ticketer.DAL.AuthenticationService.AuthenticationService AuthenticationService
+
+
+
+<h3>Login</h3>
+
+<EditForm Model="loginModel" OnValidSubmit="HandleLogin" FormName="Login">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <InputText id="email" class="form-control" @bind-Value="loginModel.Email" />
+    </div>
+    <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <InputText id="password" type="password" class="form-control" @bind-Value="loginModel.Password" />
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+</EditForm>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger">@errorMessage</div>
+}
+
+@code {
+    private LoginModel loginModel = new();
+    private string errorMessage;
+
+    private async Task HandleLogin()
+    {
+        try
+        {
+            var result = await AuthenticationService.LoginUser(loginModel.Email, loginModel.Password);
+            if (result)
+            {
+                NavigationManager.NavigateTo("/");
+            }
+            else
+            {
+                errorMessage = "Invalid login attempt.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"An error occurred: {ex.Message}";
+        }
+    }
+
+    public class LoginModel
+    {
+        public string Email { get; set; }
+
+        public string Password { get; set; }
+    }
+}

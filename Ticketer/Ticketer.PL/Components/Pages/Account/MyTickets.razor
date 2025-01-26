@@ -1,0 +1,47 @@
+﻿@page "/MyTickets"
+@inject Ticketer.DAL.TicketService.TicketService TicketService
+@inject Ticketer.DAL.AuthenticationService.AuthenticationService AuthenticationService
+
+<h3>Your Purchased Tickets</h3>
+
+@if (tickets != null && tickets.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Concert</th>
+                <th>Purchase Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ticket in tickets)
+            {
+                <tr>
+                    <td>@ticket.Concert.Title</td>
+                    <td>@ticket.PurchaseDate.ToShortDateString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>You have not purchased any tickets.</p>
+}
+
+@code {
+    private List<Ticket> tickets = new List<Ticket>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var currentUser = AuthenticationService.CurrentUser;
+        if (currentUser != null)
+        {
+            tickets = await TicketService.GetUserTicketsAsync(currentUser.UserId);
+        }
+        else
+        {
+            tickets = new List<Ticket>();
+        }
+    }
+}

@@ -1,0 +1,62 @@
+﻿@page "/Concerts"
+@inject Ticketer.DAL.ConcertService.ConcertService ConcertService
+@inject Ticketer.DAL.TicketService.TicketService TicketService
+@inject Ticketer.DAL.AuthenticationService.AuthenticationService AuthService
+@inject NavigationManager NavigationManager
+
+<h3>Available Concerts</h3>
+
+@if (!concerts.Any())
+{
+    <p>No concerts available.</p>
+}
+else
+{
+    <ul>
+        @foreach (var concert in concerts)
+        {
+            <li>
+                <div>
+                    <h4>@concert.Title</h4>
+                    <p>@concert.Description</p>
+                    <p>Date: @concert.Date.ToShortDateString()</p>
+                    <p>Price: $@concert.Price</p>
+                    <button @onclick="() => PurchaseTicket(concert.ConcertId)">Buy Ticket</button>
+                </div>
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    private List<Concert> concerts = new();
+    private User authenticatedUser;
+
+    protected override async Task OnInitializedAsync()
+    {
+        concerts = await ConcertService.GetAllConcertsAsync();
+        authenticatedUser = await AuthService.GetAuthenticatedUserAsync(); // Retrieve the authenticated user
+    }
+
+    private async Task PurchaseTicket(int concertId)
+    {
+        if (authenticatedUser == null)
+        {
+            NavigationManager.NavigateTo("/login");
+            return;
+        }
+
+        bool success = TicketService.PurchaseTicket(authenticatedUser.UserId, concertId);
+
+        if (success)
+        {
+            // Notify the user or refresh the state
+            await Task.Delay(200); // Example delay for UI update
+            Console.WriteLine("Ticket purchased successfully.");
+        }
+        else
+        {
+            Console.WriteLine("Failed to purchase ticket.");
+        }
+    }
+}

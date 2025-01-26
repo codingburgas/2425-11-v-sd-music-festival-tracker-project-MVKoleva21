@@ -1,0 +1,74 @@
+﻿@page "/Admin/AddConcert"
+@using Microsoft.Data.SqlClient
+@using Ticketer.DAL.Models
+@inject Ticketer.DAL.Data.TicketManagementDatabaseContext DbContext
+@inject NavigationManager Navigation
+
+<PageTitle>Add Concert</PageTitle>
+
+<h3>Add New Concert</h3>
+
+<EditForm Model="@newConcert" OnValidSubmit="HandleValidSubmit" FormName="AddConcert">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group mb-3">
+        <label for="title">Concert Title</label>
+        <InputText id="title" class="form-control" @bind-Value="newConcert.Title" />
+        <span>Current Title: @newConcert.Title</span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label for="description">Description</label>
+        <InputTextArea id="description" class="form-control" @bind-Value="newConcert.Description" />
+        <span>Current Description: @newConcert.Description</span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label for="date">Date</label>
+        <InputDate id="date" class="form-control" @bind-Value="newConcert.Date" min="1753-01-01" />
+        <span>Current Date: @newConcert.Date.ToShortDateString()</span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label for="price">Price</label>
+        <InputNumber id="price" class="form-control" @bind-Value="newConcert.Price" />
+        <span>Current Price: @newConcert.Price</span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Concert</button>
+    <button type="button" class="btn btn-secondary" @onclick="@(() => Navigation.NavigateTo("/Admin/ConcertManagement"))">Cancel</button>
+</EditForm>
+
+@code {
+    private Concert newConcert = new Concert
+        {
+            Title = "",
+            Description = "",
+            Date = DateTime.Today,
+            Price = 0
+        };
+
+   
+    private async Task HandleValidSubmit()
+    {
+        if (DbContext.Connection.State != System.Data.ConnectionState.Open)
+        {
+            await DbContext.Connection.OpenAsync();
+        }
+
+        using (var command = new SqlCommand(
+            "INSERT INTO [dbo].[Concerts] (Title, Description, Date, Price) VALUES (@Title, @Description, @Date, @Price)",
+            DbContext.Connection))
+        {
+            command.Parameters.AddWithValue("@Title", newConcert.Title);
+            command.Parameters.AddWithValue("@Description", newConcert.Description);
+            command.Parameters.AddWithValue("@Date", newConcert.Date);
+            command.Parameters.AddWithValue("@Price", newConcert.Price);
+
+            await command.ExecuteNonQueryAsync();
+        }
+
+        Navigation.NavigateTo("/Admin/ConcertManagement");
+    }
+}

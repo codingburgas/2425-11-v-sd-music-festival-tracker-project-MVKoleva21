@@ -1,7 +1,136 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Ticketer - Your Concert Ticket Platform</PageTitle>
 
-<h1>Hello, world!</h1>
+<div class="hero-section">
+    <h1>Welcome to Ticketer</h1>
+    <p class="lead">Your one-stop destination for concert tickets and event management</p>
 
-Welcome to your new app.
+    <div class="auth-buttons">
+        <NavLink href="/Account/Login" class="btn btn-light">Login</NavLink>
+        <NavLink href="/Account/Register" class="btn btn-outline-light">Register</NavLink>
+    </div>
+</div>
+
+<div class="features-grid">
+    <div class="feature-card">
+        <i class="fas fa-ticket-alt"></i>
+        <h3>Browse Concerts</h3>
+        <p>Discover upcoming concerts and secure your spots</p>
+        <NavLink href="/Concerts" class="btn btn-primary">View Concerts</NavLink>
+    </div>
+
+    <div class="feature-card">
+        <i class="fas fa-list-alt"></i>
+        <h3>My Tickets</h3>
+        <p>Access and manage your purchased tickets</p>
+        <NavLink href="/MyTickets" class="btn btn-primary">View Tickets</NavLink>
+    </div>
+
+    <div class="feature-card">
+        <i class="fas fa-wallet"></i>
+        <h3>Manage Funds</h3>
+        <p>Add and track your account balance</p>
+        <NavLink href="/Deposit" class="btn btn-primary">Add Funds</NavLink>
+    </div>
+
+    <div class="feature-card admin-card">
+        <i class="fas fa-plus-circle"></i>
+        <h3>Add Concert</h3>
+        <p>Create and schedule new concert events</p>
+        <NavLink href="/Admin/AddConcert" class="btn btn-primary">Add Concert</NavLink>
+    </div>
+
+    <div class="feature-card admin-card">
+        <i class="fas fa-edit"></i>
+        <h3>Manage Concerts</h3>
+        <p>Edit or remove existing concert events</p>
+        <NavLink href="/Admin/ConcertManagement" class="btn btn-primary">Manage Concerts</NavLink>
+    </div>
+</div>
+
+<style>
+    .hero-section {
+        text-align: center;
+        padding: 4rem 2rem;
+        background: linear-gradient(135deg, #6b46c1 0%, #434190 100%);
+        color: white;
+        border-radius: 8px;
+        margin-bottom: 2rem;
+    }
+
+    .auth-buttons {
+        margin-top: 2rem;
+    }
+
+        .auth-buttons .btn {
+            margin: 0 0.5rem;
+            padding: 0.75rem 2rem;
+            font-weight: 500;
+        }
+
+    .btn-light {
+        background: white;
+        color: #6b46c1;
+    }
+
+    .btn-outline-light {
+        border: 2px solid white;
+        background: transparent;
+        color: white;
+    }
+
+        .btn-outline-light:hover {
+            background: white;
+            color: #6b46c1;
+        }
+
+    .lead {
+        font-size: 1.25rem;
+        margin-top: 1rem;
+    }
+
+    .features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    .feature-card {
+        background: white;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: transform 0.2s;
+    }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-card i {
+            font-size: 2rem;
+            color: #6b46c1;
+            margin-bottom: 1rem;
+        }
+
+    .btn {
+        margin-top: 1rem;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        display: inline-block;
+        transition: all 0.3s ease;
+    }
+
+    .btn-primary {
+        background-color: #6b46c1;
+        color: white;
+    }
+
+        .btn-primary:hover {
+            background-color: #553c9a;
+        }
+</style>

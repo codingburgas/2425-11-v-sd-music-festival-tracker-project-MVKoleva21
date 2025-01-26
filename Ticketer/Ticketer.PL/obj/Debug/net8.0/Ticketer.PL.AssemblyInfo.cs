@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ticketer.PL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05b4fe89a0bbc723d04d101cc8d693926f1e64a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2388b724c51e919139c97e75cba83bc4c461cc43")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ticketer.PL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ticketer.PL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

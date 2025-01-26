@@ -1,0 +1,80 @@
+﻿@page "/Admin/ConcertManagement"
+@using Ticketer.DAL.Models
+@using Microsoft.Data.SqlClient
+@inject Ticketer.DAL.Data.TicketManagementDatabaseContext DbContext
+@inject NavigationManager Navigation
+
+<PageTitle>Concert Management</PageTitle>
+
+<h3>Concert Management</h3>
+
+<!-- Add New Concert Button -->
+<button class="btn btn-primary mb-3" @onclick="NavigateToAddConcertPage">Add New Concert</button>
+
+<!-- Concerts Table -->
+@if (DbContext.Concerts.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Concert ID</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Date</th>
+                <th>Price</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var concert in DbContext.Concerts)
+            {
+                <tr>
+                    <td>@concert.ConcertId</td>
+                    <td>@concert.Title</td>
+                    <td>@concert.Description</td>
+                    <td>@concert.Date.ToShortDateString()</td>
+                    <td>@concert.Price.ToString("C")</td>
+                    <td>
+                        <button class="btn btn-warning btn-sm" @onclick="() => NavigateToEditConcertPage(concert.ConcertId)">Edit</button>
+                        <button class="btn btn-danger btn-sm" @onclick="() => DeleteConcert(concert.ConcertId)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No concerts found.</p>
+}
+
+@code {
+    private void NavigateToAddConcertPage()
+    {
+        Navigation.NavigateTo("/Admin/AddConcert");
+    }
+
+    private void NavigateToEditConcertPage(int concertId)
+    {
+        Navigation.NavigateTo($"/Admin/EditConcert/{concertId}");
+    }
+
+    private async Task DeleteConcert(int concertId)
+    {
+        // Find the concert to delete
+        var concertToDelete = DbContext.Concerts.FirstOrDefault(c => c.ConcertId == concertId);
+        if (concertToDelete != null)
+        {
+            // Delete concert from the database
+            SqlCommand command = new SqlCommand("DELETE FROM [dbo].[Concerts] WHERE ConcertId = @ConcertId", DbContext.Connection);
+            command.Parameters.AddWithValue("@ConcertId", concertId);
+            await command.ExecuteNonQueryAsync();
+
+            // Remove concert from the list in DbContext
+            DbContext.Concerts.Remove(concertToDelete);
+        }
+
+        // Refresh the page to show the updated concert list
+        StateHasChanged();
+    }
+}

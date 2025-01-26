@@ -1,0 +1,92 @@
+﻿@page "/Admin/EditConcert/{Id:int}"
+@using Microsoft.Data.SqlClient
+@using Ticketer.DAL.Models
+@inject Ticketer.DAL.Data.TicketManagementDatabaseContext DbContext
+@inject NavigationManager Navigation
+
+<PageTitle>Edit Concert</PageTitle>
+
+<h3>Edit Concert</h3>
+
+@if (concert != null)
+{
+    <EditForm Model="@concert" OnValidSubmit="HandleValidSubmit" FormName="EditConcert">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group mb-3">
+            <label for="title">Concert Title</label>
+            <InputText id="title" class="form-control" @bind-Value="concert.Title" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="description">Description</label>
+            <InputTextArea id="description" class="form-control" @bind-Value="concert.Description" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="date">Date</label>
+            <InputDate id="date" class="form-control" @bind-Value="concert.Date" min="1753-01-01" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="price">Price</label>
+            <InputNumber id="price" class="form-control" @bind-Value="concert.Price" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Update Concert</button>
+        <button type="button" class="btn btn-secondary" @onclick="@(() => Navigation.NavigateTo("/Admin/ConcertManagement"))">Cancel</button>
+    </EditForm>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private Concert? concert;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (DbContext.Connection.State != System.Data.ConnectionState.Open)
+        {
+            await DbContext.Connection.OpenAsync();
+        }
+
+        using (var command = new SqlCommand(
+            "SELECT * FROM [dbo].[Concerts] WHERE ConcertId = @Id",
+            DbContext.Connection))
+        {
+            command.Parameters.AddWithValue("@Id", Id);
+            using var reader = await command.ExecuteReaderAsync();
+            if (await reader.ReadAsync())
+            {
+                concert = new Concert
+                    {
+                        ConcertId = reader.GetInt32(reader.GetOrdinal("ConcertId")),
+                        Title = reader.GetString(reader.GetOrdinal("Title")),
+                        Description = reader.GetString(reader.GetOrdinal("Description")),
+                        Date = reader.GetDateTime(reader.GetOrdinal("Date")),
+                        Price = reader.GetDecimal(reader.GetOrdinal("Price"))
+                    };
+            }
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        using (var command = new SqlCommand(
+            "UPDATE [dbo].[Concerts] SET Title = @Title, Description = @Description, Date = @Date, Price = @Price WHERE ConcertId = @Id",
+            DbContext.Connection))
+        {
+            command.Parameters.AddWithValue("@Id", Id);
+            command.Parameters.AddWithValue("@Title", concert.Title);
+            command.Parameters.AddWithValue("@Description", concert.Description);
+            command.Parameters.AddWithValue("@Date", concert.Date);
+            command.Parameters.AddWithValue("@Price", concert.Price);
+
+            await command.ExecuteNonQueryAsync();
+        }
+
+        Navigation.NavigateTo("/Admin/ConcertManagement");
+    }
+}

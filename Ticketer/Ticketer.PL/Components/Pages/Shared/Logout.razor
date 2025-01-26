@@ -1,0 +1,11 @@
+﻿@page "/Account/Logout"
+@inject Ticketer.DAL.AuthenticationService.AuthenticationService AuthService;
+@inject NavigationManager Navigation
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await AuthService.LogoutUser();
+        Navigation.NavigateTo("/");
+    }
+}

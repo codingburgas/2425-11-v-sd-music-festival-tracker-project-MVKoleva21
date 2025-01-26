@@ -1,0 +1,41 @@
+﻿@page "/Deposit"
+@inject Ticketer.DAL.UserService.UserService UserService
+@inject Ticketer.DAL.AuthenticationService.AuthenticationService AuthService
+
+<h3>Add Funds to Your Account</h3>
+
+<EditForm Model="depositModel" OnValidSubmit="HandleDeposit" FormName="Deposit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <InputNumber @bind-Value="depositModel.Amount" placeholder="Amount to deposit" />
+    <button type="submit">Deposit</button>
+</EditForm>
+
+@code {
+    private DepositModel depositModel = new();
+
+    // Make the method async to await GetAuthenticatedUserAsync
+    private async Task HandleDeposit()
+    {
+        // Await the asynchronous call to get the authenticated user
+        var user = await AuthService.GetAuthenticatedUserAsync();
+
+        // Ensure the user is not null before accessing UserId
+        if (user != null)
+        {
+            // Add the deposit for the authenticated user
+            UserService.AddDeposit(user.UserId, depositModel.Amount);
+        }
+        else
+        {
+            // Handle the case where the user is not authenticated or does not exist
+            Console.WriteLine("User not authenticated.");
+        }
+    }
+
+    public class DepositModel
+    {
+        public decimal Amount { get; set; }
+    }
+}
